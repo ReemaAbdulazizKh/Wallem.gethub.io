@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+	<head> 
+		<meta charset ="utf-8">
+		 
+			 <img src="images\logo.png" atl="website logo" id='logo'>
+			 
+		<title> Contact Us </title>
+		<link rel="stylesheet" href="style.css">
+		<style>
+		dt{color : #FF66DD;}
+		dl{text-align : center; line-height:3em;}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Welcome to our first website</h1>
+			<div id='navigation'>
+			<a href = "index.html" >home page</a>
+			<a href = "about-us.html" >about us</a>
+			<a href = "contactus.html" >contact Us</a>
+			</div>
+			
+        </header>
+        	<div id='sidebar'>
+	<ul>
+    <li><a href = "index.html" >home page</a></li> 
+	<li><a href ="about-us.html" >about us</a></li>
+	<li><a href = "contactus.html" >contact Us</a></li>
+	</ul>
+	
+	</div>
+    <main>
+      <h2>Contact Our IT312 Team </h2>
+	  
+	  
+	  <table>
+	  <caption> our team schedule </caption>
+	  
+	  <thead> 
+	  
+	<tr>
+		<th>staff/days</th>
+		<th>sunday</th>
+		<th>monday</th>
+		<th>tuesday</th>
+		<th>wedensday</th>
+		<th>thursday</th>
+	</tr>
+		</thead>
+		<tbody> 
+	 <tr>
+	   <th>dr.fahad</th>
+	    <td> 8:00 Am - 12:00 Pm </td>
+	    <td> 9:00 Am - 2:00 Pm </td>
+		 <td colspan="2"> 8:00 Am - 12:00 Pm </td>
+	    <td> 12:00 Pm - 5:00 Pm </td>
+	 </tr>
+	  
+	  <tr>
+	  <th>dr.khaleed</th>
+	   <td> 8:00 Am - 12:00 Pm </td>
+	    <td colspan="3"> 12:00 Pm - 5:00 Pm</td>
+	    <td> 11:00 Am - 3:00 Pm</td>
+	   
+	   
+	  </tr>
+	  </tbody>
+	  <tfoot>
+	  <tr>
+	   <td> others </td>
+		<td colspan="5"> every day from 8:00 Am - 5:00 Pm</td>
+	   
+	  </tr>
+	  </tfoot>
+	  </table>
+	  
+	   <h2> send your messege </h2>
+	  <form action="" method="POST">
+	 <fieldset>
+	 <legend> student information </legend>
+	 <ul> 
+	 <li><label>Name: <input type="text" name="name"></label> </li>
+	 <li><label>Gender: <input type="radio" name="gender"value="male" checked>male
+	 <input type="radio" name="gender"value="female">female</label></li>
+	 <li><label>Age: <input type="text" name="age"></label> </li>
+	 <li><label>Email: <input type="email"name="email"></label> </li>
+	 <li><label>Telephone: <input type="tel" name="tel" value ="9669xxx"></label> </li>
+	 <li><label>Select the type of message: <select name="message">
+	 <option>Question</option>
+	  <option>Request</option>
+	   <option>Reminding</option>
+	    <option>Others</option>
+	 </select></label> </li>
+	 <li>Message<br> <textarea name="message" rows="6" cols="64" id="text">Type your message here please!</textarea></li>
+	 </ul>
+	 </fieldset>
+	  </form>
+	  
+	  
+   
+	
+	<footer>
+	<p><br><br>&#169; 2024 IT312 lab </p>
+	</footer>
+    </body>
+
+</html>
